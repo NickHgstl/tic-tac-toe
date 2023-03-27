@@ -67,6 +67,7 @@ box.addEventListener('click', function (e) {
             
         }
         else if ( player1.playercomb.length == 5 || player2.playercomb.length == 5){            
+            alert("TIE!");
             setTimeout(function(){
             location.reload();
             return false;
